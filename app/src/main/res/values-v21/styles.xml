@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    fixme : We'll have to revert to Widget.MaterialComponents.BottomSheet.Modal when this issue is fixed: https://github.com/material-components/material-components-android/issues/1086-->
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+
+    <style name="Theme.KPlayer.Player" parent="Theme.KPlayer.Player.7">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+    </style>
+
+    <style name="Theme.KPlayer" parent="Theme.KPlayer.19">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/grey400</item>
+    </style>
+
+    <style name="Theme.KPlayer.Black" parent="Theme.KPlayer.Black.19">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.KPlayer.Onboarding" parent="Theme.KPlayer.Onboarding.7">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/onboarding_grey</item>
+    </style>
+</resources>
